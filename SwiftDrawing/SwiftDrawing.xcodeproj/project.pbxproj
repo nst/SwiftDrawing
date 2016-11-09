@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031445111DCF64A000C9B363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031445101DCF64A000C9B363 /* AppDelegate.swift */; };
+		031445131DCF64A000C9B363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031445121DCF64A000C9B363 /* Assets.xcassets */; };
+		031445161DCF64A000C9B363 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031445141DCF64A000C9B363 /* MainMenu.xib */; };
+		0314451E1DCF655200C9B363 /* DrawLine2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314451D1DCF655200C9B363 /* DrawLine2.swift */; };
+		0322F8591DD126A10074F1CF /* DrawLine1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F8581DD126A10074F1CF /* DrawLine1.swift */; };
+		0322F85F1DD128BE0074F1CF /* DrawRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F85A1DD128BE0074F1CF /* DrawRect.swift */; };
+		0322F8601DD128BE0074F1CF /* DrawEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F85B1DD128BE0074F1CF /* DrawEllipse.swift */; };
+		0322F8611DD128BE0074F1CF /* DrawComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F85C1DD128BE0074F1CF /* DrawComposition.swift */; };
+		0322F8621DD128BE0074F1CF /* DrawCompositionAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F85D1DD128BE0074F1CF /* DrawCompositionAlpha.swift */; };
+		0322F8631DD128BE0074F1CF /* DrawCompositionBlending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F85E1DD128BE0074F1CF /* DrawCompositionBlending.swift */; };
+		0322F8691DD129CA0074F1CF /* DrawPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F8641DD129CA0074F1CF /* DrawPath.swift */; };
+		0322F86A1DD129CA0074F1CF /* DrawText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F8651DD129CA0074F1CF /* DrawText.swift */; };
+		0322F86B1DD129CA0074F1CF /* DrawClipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F8661DD129CA0074F1CF /* DrawClipping.swift */; };
+		0322F86F1DD14CF70074F1CF /* DrawGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F86E1DD14CF70074F1CF /* DrawGradient.swift */; };
+		0322F8711DD14FF70074F1CF /* DrawImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F8701DD14FF70074F1CF /* DrawImage.swift */; };
+		0322F8731DD153960074F1CF /* DrawImageFiltered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322F8721DD153960074F1CF /* DrawImageFiltered.swift */; };
+		033098FC1DD0E92200F88699 /* Lenna.png in Resources */ = {isa = PBXBuildFile; fileRef = 033098FB1DD0E92200F88699 /* Lenna.png */; };
+		033098FE1DD1CF6F00F88699 /* DrawInteractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033098FD1DD1CF6F00F88699 /* DrawInteractions.swift */; };
+		033099001DD1ECA700F88699 /* DrawPushAndPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033098FF1DD1ECA700F88699 /* DrawPushAndPop.swift */; };
+		033099021DD1EEBC00F88699 /* DrawTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033099011DD1EEBC00F88699 /* DrawTransforms.swift */; };
+		033099041DD1FA0B00F88699 /* DrawLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033099031DD1FA0B00F88699 /* DrawLayers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0314450D1DCF64A000C9B363 /* SwiftDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031445101DCF64A000C9B363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		031445121DCF64A000C9B363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031445151DCF64A000C9B363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		031445171DCF64A000C9B363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0314451D1DCF655200C9B363 /* DrawLine2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLine2.swift; sourceTree = "<group>"; };
+		0314451F1DCF6D0400C9B363 /* SwiftDrawing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDrawing.entitlements; sourceTree = "<group>"; };
+		0322F8581DD126A10074F1CF /* DrawLine1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLine1.swift; sourceTree = "<group>"; };
+		0322F85A1DD128BE0074F1CF /* DrawRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawRect.swift; sourceTree = "<group>"; };
+		0322F85B1DD128BE0074F1CF /* DrawEllipse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawEllipse.swift; sourceTree = "<group>"; };
+		0322F85C1DD128BE0074F1CF /* DrawComposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawComposition.swift; sourceTree = "<group>"; };
+		0322F85D1DD128BE0074F1CF /* DrawCompositionAlpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCompositionAlpha.swift; sourceTree = "<group>"; };
+		0322F85E1DD128BE0074F1CF /* DrawCompositionBlending.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCompositionBlending.swift; sourceTree = "<group>"; };
+		0322F8641DD129CA0074F1CF /* DrawPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawPath.swift; sourceTree = "<group>"; };
+		0322F8651DD129CA0074F1CF /* DrawText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawText.swift; sourceTree = "<group>"; };
+		0322F8661DD129CA0074F1CF /* DrawClipping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawClipping.swift; sourceTree = "<group>"; };
+		0322F86E1DD14CF70074F1CF /* DrawGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawGradient.swift; sourceTree = "<group>"; };
+		0322F8701DD14FF70074F1CF /* DrawImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawImage.swift; sourceTree = "<group>"; };
+		0322F8721DD153960074F1CF /* DrawImageFiltered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawImageFiltered.swift; sourceTree = "<group>"; };
+		033098FB1DD0E92200F88699 /* Lenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lenna.png; sourceTree = "<group>"; };
+		033098FD1DD1CF6F00F88699 /* DrawInteractions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawInteractions.swift; sourceTree = "<group>"; };
+		033098FF1DD1ECA700F88699 /* DrawPushAndPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawPushAndPop.swift; sourceTree = "<group>"; };
+		033099011DD1EEBC00F88699 /* DrawTransforms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawTransforms.swift; sourceTree = "<group>"; };
+		033099031DD1FA0B00F88699 /* DrawLayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLayers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0314450A1DCF64A000C9B363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031445041DCF64A000C9B363 = {
+			isa = PBXGroup;
+			children = (
+				0314450F1DCF64A000C9B363 /* SwiftDrawing */,
+				0314450E1DCF64A000C9B363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0314450E1DCF64A000C9B363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0314450D1DCF64A000C9B363 /* SwiftDrawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0314450F1DCF64A000C9B363 /* SwiftDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				0314451F1DCF6D0400C9B363 /* SwiftDrawing.entitlements */,
+				031445101DCF64A000C9B363 /* AppDelegate.swift */,
+				0322F8581DD126A10074F1CF /* DrawLine1.swift */,
+				0314451D1DCF655200C9B363 /* DrawLine2.swift */,
+				0322F85A1DD128BE0074F1CF /* DrawRect.swift */,
+				0322F85B1DD128BE0074F1CF /* DrawEllipse.swift */,
+				0322F85C1DD128BE0074F1CF /* DrawComposition.swift */,
+				0322F85D1DD128BE0074F1CF /* DrawCompositionAlpha.swift */,
+				0322F85E1DD128BE0074F1CF /* DrawCompositionBlending.swift */,
+				0322F8641DD129CA0074F1CF /* DrawPath.swift */,
+				0322F8651DD129CA0074F1CF /* DrawText.swift */,
+				0322F8661DD129CA0074F1CF /* DrawClipping.swift */,
+				0322F86E1DD14CF70074F1CF /* DrawGradient.swift */,
+				0322F8701DD14FF70074F1CF /* DrawImage.swift */,
+				0322F8721DD153960074F1CF /* DrawImageFiltered.swift */,
+				033098FF1DD1ECA700F88699 /* DrawPushAndPop.swift */,
+				033099011DD1EEBC00F88699 /* DrawTransforms.swift */,
+				033098FD1DD1CF6F00F88699 /* DrawInteractions.swift */,
+				033099031DD1FA0B00F88699 /* DrawLayers.swift */,
+				031445121DCF64A000C9B363 /* Assets.xcassets */,
+				031445141DCF64A000C9B363 /* MainMenu.xib */,
+				031445171DCF64A000C9B363 /* Info.plist */,
+				033098FB1DD0E92200F88699 /* Lenna.png */,
+			);
+			path = SwiftDrawing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0314450C1DCF64A000C9B363 /* SwiftDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0314451A1DCF64A000C9B363 /* Build configuration list for PBXNativeTarget "SwiftDrawing" */;
+			buildPhases = (
+				031445091DCF64A000C9B363 /* Sources */,
+				0314450A1DCF64A000C9B363 /* Frameworks */,
+				0314450B1DCF64A000C9B363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDrawing;
+			productName = SwiftDrawing;
+			productReference = 0314450D1DCF64A000C9B363 /* SwiftDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031445051DCF64A000C9B363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nicolas Seriot";
+				TargetAttributes = {
+					0314450C1DCF64A000C9B363 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VBYRKYS73S;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 031445081DCF64A000C9B363 /* Build configuration list for PBXProject "SwiftDrawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 031445041DCF64A000C9B363;
+			productRefGroup = 0314450E1DCF64A000C9B363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0314450C1DCF64A000C9B363 /* SwiftDrawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0314450B1DCF64A000C9B363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033098FC1DD0E92200F88699 /* Lenna.png in Resources */,
+				031445131DCF64A000C9B363 /* Assets.xcassets in Resources */,
+				031445161DCF64A000C9B363 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031445091DCF64A000C9B363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0322F8591DD126A10074F1CF /* DrawLine1.swift in Sources */,
+				0322F8601DD128BE0074F1CF /* DrawEllipse.swift in Sources */,
+				0322F8621DD128BE0074F1CF /* DrawCompositionAlpha.swift in Sources */,
+				0322F8691DD129CA0074F1CF /* DrawPath.swift in Sources */,
+				0314451E1DCF655200C9B363 /* DrawLine2.swift in Sources */,
+				033099041DD1FA0B00F88699 /* DrawLayers.swift in Sources */,
+				0322F86F1DD14CF70074F1CF /* DrawGradient.swift in Sources */,
+				0322F8611DD128BE0074F1CF /* DrawComposition.swift in Sources */,
+				0322F86A1DD129CA0074F1CF /* DrawText.swift in Sources */,
+				031445111DCF64A000C9B363 /* AppDelegate.swift in Sources */,
+				033098FE1DD1CF6F00F88699 /* DrawInteractions.swift in Sources */,
+				0322F86B1DD129CA0074F1CF /* DrawClipping.swift in Sources */,
+				0322F8731DD153960074F1CF /* DrawImageFiltered.swift in Sources */,
+				0322F85F1DD128BE0074F1CF /* DrawRect.swift in Sources */,
+				033099021DD1EEBC00F88699 /* DrawTransforms.swift in Sources */,
+				0322F8631DD128BE0074F1CF /* DrawCompositionBlending.swift in Sources */,
+				0322F8711DD14FF70074F1CF /* DrawImage.swift in Sources */,
+				033099001DD1ECA700F88699 /* DrawPushAndPop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		031445141DCF64A000C9B363 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031445151DCF64A000C9B363 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031445181DCF64A000C9B363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		031445191DCF64A000C9B363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		0314451B1DCF64A000C9B363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftDrawing/SwiftDrawing.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VBYRKYS73S;
+				INFOPLIST_FILE = SwiftDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.seriot.SwiftDrawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0314451C1DCF64A000C9B363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftDrawing/SwiftDrawing.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VBYRKYS73S;
+				INFOPLIST_FILE = SwiftDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.seriot.SwiftDrawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031445081DCF64A000C9B363 /* Build configuration list for PBXProject "SwiftDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031445181DCF64A000C9B363 /* Debug */,
+				031445191DCF64A000C9B363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0314451A1DCF64A000C9B363 /* Build configuration list for PBXNativeTarget "SwiftDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0314451B1DCF64A000C9B363 /* Debug */,
+				0314451C1DCF64A000C9B363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031445051DCF64A000C9B363 /* Project object */;
+}
