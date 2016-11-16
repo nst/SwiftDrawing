@@ -28,6 +28,7 @@
 		033099001DD1ECA700F88699 /* DrawPushAndPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033098FF1DD1ECA700F88699 /* DrawPushAndPop.swift */; };
 		033099021DD1EEBC00F88699 /* DrawTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033099011DD1EEBC00F88699 /* DrawTransforms.swift */; };
 		033099041DD1FA0B00F88699 /* DrawLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033099031DD1FA0B00F88699 /* DrawLayers.swift */; };
+		0354B5D51DDD06F1002F76D0 /* DrawLayersLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354B5D41DDD06F1002F76D0 /* DrawLayersLines.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		033098FF1DD1ECA700F88699 /* DrawPushAndPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawPushAndPop.swift; sourceTree = "<group>"; };
 		033099011DD1EEBC00F88699 /* DrawTransforms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawTransforms.swift; sourceTree = "<group>"; };
 		033099031DD1FA0B00F88699 /* DrawLayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLayers.swift; sourceTree = "<group>"; };
+		0354B5D41DDD06F1002F76D0 /* DrawLayersLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLayersLines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				033099011DD1EEBC00F88699 /* DrawTransforms.swift */,
 				033098FD1DD1CF6F00F88699 /* DrawInteractions.swift */,
 				033099031DD1FA0B00F88699 /* DrawLayers.swift */,
+				0354B5D41DDD06F1002F76D0 /* DrawLayersLines.swift */,
 				031445121DCF64A000C9B363 /* Assets.xcassets */,
 				031445141DCF64A000C9B363 /* MainMenu.xib */,
 				031445171DCF64A000C9B363 /* Info.plist */,
@@ -208,6 +211,7 @@
 				0322F85F1DD128BE0074F1CF /* DrawRect.swift in Sources */,
 				033099021DD1EEBC00F88699 /* DrawTransforms.swift in Sources */,
 				0322F8631DD128BE0074F1CF /* DrawCompositionBlending.swift in Sources */,
+				0354B5D51DDD06F1002F76D0 /* DrawLayersLines.swift in Sources */,
 				0322F8711DD14FF70074F1CF /* DrawImage.swift in Sources */,
 				033099001DD1ECA700F88699 /* DrawPushAndPop.swift in Sources */,
 			);

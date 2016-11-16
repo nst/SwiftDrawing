@@ -36,7 +36,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             "DrawPushAndPop",
             "DrawTransforms",
             "DrawInteractions",
-            "DrawLayers"
+            "DrawLayers",
+            "DrawLayersLines"
         ]
         
         for s in classNames {
